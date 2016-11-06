@@ -1,0 +1,15 @@
+pwd  		the way to current folder
+ls  		list of files in folder
+cd 		change dir
+cd ..  		1 up
+mv 1 2  	rename (move) 1 to 2
+mv 1/* 2 	move all in fold 1 to fold 2
+rm 1  		del file
+rm -r 1 	del folder w files
+rm -r 1/*  	del all files in folder 1 but leave folder (flag -rf for silent del without confirming each file)
+cat 1		show the content of file
+head 1		shows the first 10 rows of text
+tail 1		shows the last 10 (flag -f monitir the writing changes in file on air) ctrl+c - exit
+grep 'w' 1	serching and showing for all 'w' in the file 1
+less 1		'pager'- open file fitting to the screen (no scroll, q for quit, h for help, shift+g- to the end of 			doc/ g to the head, /k- serching for all 'k' in doc)
+man mkdir	MANual for mkdir
