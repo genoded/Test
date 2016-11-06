@@ -1,14 +1,14 @@
-1  ubuntu -v
-    2  ubuntu --v
-    3  lsb_release
-    4  lsb_release -a
-    5  sudo apt-get ubuntu-restricted-extras
-    6  sudo apt-get install ubuntu-restricted-extras
-    7  sudo apt-get update
-    8  sudo apt-get install browser-plugin-fleshplayer-pepperflesh
-    9  sudo apt-get install browser-plugin-freshplayer-pepperflesh
-   10  sudo apt-get install browser-plugin-freshplayer-pepperfresh
-   11  sudo apt-get install browser-plugin-freshplayer-pepperflash
+ubuntu -v
+ubuntu --v
+lsb_release
+lsb_release -a
+sudo apt-get ubuntu-restricted-extras
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get update
+sudo apt-get install browser-plugin-fleshplayer-pepperflesh
+sudo apt-get install browser-plugin-freshplayer-pepperflesh
+sudo apt-get install browser-plugin-freshplayer-pepperfresh
+sudo apt-get install browser-plugin-freshplayer-pepperflash
    12  ls
    13  cd Документы/
    14  mkdir Gleb
@@ -43,20 +43,20 @@
    43  git config --global user.name "gleb"
    44  git commit -m"initial"
    45  git push -u origin master
-   46  subl text.txt
-   47  git add .
-   48  git status
-   49  git commit -m "Sosos"
-   50  git status
-   51  git push 
-   52  git checkout -b test
-   53  subl text.txt
-   54  git add .
-   55  git commit
-   56  git commit -m "Err"
-   57  git checkout master
-   58  subl text.txt
-   59  git checkout test
+subl text.txt
+git add .
+git status
+git commit -m "Sosos"
+git status
+git push 
+git checkout -b test
+subl text.txt
+git add .
+git commit
+git commit -m "Err"
+git checkout master
+subl text.txt
+git checkout test
    60  subl text.txt
    61  git checkout master
    62  git merge test
