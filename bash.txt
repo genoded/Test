@@ -13,3 +13,6 @@ tail 1		shows the last 10 (flag -f monitir the writing changes in file on air) c
 grep 'w' 1	serching and showing for all 'w' in the file 1
 less 1		'pager'- open file fitting to the screen (no scroll, q for quit, h for help, shift+g- to the end of 			doc/ g to the head, /k- serching for all 'k' in doc)
 man mkdir	MANual for mkdir
+cat source | sort | uniq | grep 'American' | wc -l  conveer
+ctrl+r		search through history of commands
+alias		configure aliases
