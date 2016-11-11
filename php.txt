@@ -1,0 +1,4 @@
+File Insertions:
+  - echo get_include_path: returns included pathes of insrted files
+  - set_include_path: set new path 
+  - requre '1.php'; require_once '1.php'; : inserts 1.php into
