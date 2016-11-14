@@ -6,7 +6,7 @@ mv 1 2  	rename (move) 1 to 2
 mv 1/* 2 	move all in fold 1 to fold 2
 rm 1  		del file
 rm -r 1 	del folder w files
-rm -r 1/*  	del all files in folder 1 but leave folder (flag -rf for silent del without confirming each file)
+rm -r 1/*  	del all files in folder 1 but leave folder (flag -rf for silent del without confirming each file)subl
 cat 1		show the content of file
 head 1		shows the first 10 rows of text
 tail 1		shows the last 10 (flag -f monitir the writing changes in file on air) ctrl+c - exit

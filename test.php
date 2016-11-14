@@ -1,7 +1,15 @@
 <?php
 
-function ballVolume($R)
+
+// BEGIN (write your solution here)
+function sumDouble($first, $last)
 {
-    return 4 * pi() * $R ** 3 / 3;
+	$result = 0;
+    for ($i = $first; $i <= $last; $i += 2){
+    	$result = $i ** 2;
+        
+    }
+    echo $result;
 }
-echo ballVolume(1);
+sumDouble(3, 9);
+// END

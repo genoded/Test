@@ -1,4 +1,31 @@
-File Insertions:
+File Insertions: (http://php.net/manual/ru/function.include.php)
   - echo get_include_path: returns included pathes of insrted files
   - set_include_path: set new path 
-  - requre '1.php'; require_once '1.php'; : inserts 1.php into
+  - require '1.php'; require_once '1.php'; : inserts 1.php into and run it
+
+Name Spaces : (http://php.net/manual/ru/language.namespaces.php)
+
+Constants: 
+	- const FOO = 7 ** 2; : defining
+	- __magic constants__ : value of this const depends on the place   where it declared (file or line)
+
+Booleans: (http://php.net/manual/ru/language.types.boolean.php)
+
+If statements: 
+	- return $num > 0 ? 'positive' : 'negative'; ==
+	- if ($num > 0) {
+		return 'positive';
+	} else {
+		return 'negative';
+	}
+
+Arrays: (http://php.net/manual/ru/language.types.array.php)
+	- $x[] = 'y'; - push string to array
+	- $x[2] = 'y'; - replace 2nd element by orange
+	unset($x[0]); - del element w index 0
+	- sizeof($x); - returns size of arr
+	- in_array('y', $x) - serches for 'y' in arr $x
+	- empty($x); - checks if arr is empty
+	- end($x); - returns the last elem pf arr
+	- print_r($x); - echo for arrays
+	 

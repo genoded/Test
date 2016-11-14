@@ -1,4 +1,4 @@
-ubuntu -v
+gubuntu -v
 ubuntu --v
 lsb_release
 lsb_release -a
