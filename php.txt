@@ -9,7 +9,9 @@ Constants:
 	- const FOO = 7 ** 2; : defining
 	- __magic constants__ : value of this const depends on the place   where it declared (file or line)
 
-Booleans: (http://php.net/manual/ru/language.types.boolean.php)
+Booleans: 
+	- http://php.net/manual/ru/language.types.boolean.php
+	- http://php.net/manual/ru/language.operators.logical.php
 
 If statements: 
 	- return $num > 0 ? 'positive' : 'negative'; ==
@@ -20,12 +22,27 @@ If statements:
 	}
 
 Arrays: (http://php.net/manual/ru/language.types.array.php)
-	- $x[] = 'y'; - push string to array
+	- $x[] = 'y'; - push string to the end of array
 	- $x[2] = 'y'; - replace 2nd element by orange
-	unset($x[0]); - del element w index 0
+	- unset($x[0]); - del element w index 0
 	- sizeof($x); - returns size of arr
 	- in_array('y', $x) - serches for 'y' in arr $x
 	- empty($x); - checks if arr is empty
 	- end($x); - returns the last elem pf arr
 	- print_r($x); - echo for arrays
-	 
+
+Arguments: functions with variable number of args
+http://php.net/manual/ru/functions.arguments.php#functions.variable-arg-list
+	- function sum(...$args){
+	 return array_sum($args);
+	}
+	sum('any number of numbers separated with comma');
+
+Null:
+	- is_null($x); checks if x is null
+	- $y = $x ?? 'str'; if x is null, set 'str' to y
+
+Var_dump($x):
+	- shows info about variable x;
+
+	Здравствуйте! Мой вариант проходит тест, хотя не имеет if как в вашем решении и если еще и записать в моем цикле преобразования $dig в одну строку как в вашем решении: $dig = array_sum(str_split($dig));
