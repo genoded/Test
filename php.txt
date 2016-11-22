@@ -45,4 +45,10 @@ Null:
 Var_dump($x):
 	- shows info about variable x;
 
-	Здравствуйте! Мой вариант проходит тест, хотя не имеет if как в вашем решении и если еще и записать в моем цикле преобразования $dig в одну строку как в вашем решении: $dig = array_sum(str_split($dig));
+Integer: http://php.net/manual/ru/language.types.integer.php
+	 	$a = 1234; // decimal number
+		$a = -123; // a negative number
+		$a = 0123; // octal number (equivalent to 83 decimal)
+		$a = 0x1A; // hexadecimal number (equivalent to 26 decimal)
+		$a = 0b11111111; // binary number (equivalent to 255 decimal)
+
